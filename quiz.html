@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Small Quiz</title>
+    <link rel="icon" type="image/x-icon" href="images/bomb.png">
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+
+    <main>
+        <section class="quiz">
+            <div class="heading">
+                <p class="title">Javascript Quiz</p>
+                <p class="subtitle">Quiz To Test Your JS Knowledge.</p>
+            </div>
+
+            <div class="result hide">
+                <p>You Scored 5/5!</p>
+                <p class="reload">
+                    <button onclick="window.location.reload()">Try Again?</button>
+                </p>
+            </div>  
+
+            <form class="quiz-form">
+                <div class="question">
+                    <p>1. Inside Which HTML element Do We Put the Javascript?</p>
+                    <div class="option">
+                        <input type="radio" value="js" name="q1" checked>
+                        <label for="">js</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" value="javascript" name="q1">
+                        <label for="">javascript</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" value="scripting" name="q1">
+                        <label for="">scripting</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" value="script" name="q1">
+                        <label for="">script</label>
+                    </div>
+                </div>
+                <div class="question">
+                    <p>2. Where is the Correct Place to Insert the Javascript file?</p>
+                    <div class="option">
+                        <input type="radio" value="Inside Head Section" name="q2" checked>
+                        <label for="">Inside Head Section</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" value="At the end of body section" name="q2">
+                        <label for="">At the end of body section</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" value="After Body Section" name="q2">
+                        <label for="">After Body Section</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" value="None" name="q2">
+                        <label for="">None</label>
+                    </div>
+                </div>
+                <div class="question">
+                    <p>3.  Which type of JavaScript language is?</p>
+                    <div class="option">
+                        <input type="radio" value="Object-Oriented" name="q3" checked>
+                        <label for="">Object-Oriented</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" value="Object-Based" name="q3">
+                        <label for="">Object-Based</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" value="Assembly-language" name="q3">
+                        <label for="">Assembly-language</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" value="High-level" name="q3">
+                        <label for="">High-level</label>
+                    </div>
+                </div>
+                <div class="question">
+                    <p>4. How Do you Write Hello World In An Alert Box?</p>
+                    <div class="option">
+                        <input type="radio" value='pop("Hello World")' name="q4" checked>
+                        <label for="">pop("Hello World")</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" value='alert("Hello World")' name="q4">
+                        <label for="">alert("Hello World")</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" value='popUp("Hello World");' name="q4">
+                        <label for="">popUp("Hello World");</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" value='alertUp("Hello World")' name="q4">
+                        <label for="">alertUp("Hello World")</label>
+                    </div>
+                </div>
+                <div class="question">
+                    <p>5. Which Operator is Used to Assign a value to a Operator?</p>
+                    <div class="option">
+                        <input type="radio" value="-" name="q5" checked>
+                        <label for="">-</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" value="+" name="q5">
+                        <label for="">+</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" value="*" name="q5">
+                        <label for="">*</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" value="=" name="q5">
+                        <label for="">=</label>
+                    </div>
+                </div>
+
+
+                <div class="submit">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+
+        </section>
+    </main>
+    
+<script src="quiz.js"></script>    
+</body>
+</html>
